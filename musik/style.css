@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    /* overflow-x: hidden;   */
+}
+
+nav {
+    height: 7em;
+    position: relative;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    list-style: none;
+    padding-left: 30em;
+    padding-right: 20em;
+}
+
+nav ul li {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.logo {
+    top: 50%;
+    text-decoration: none;
+    color: white;
+    font-style: oblique;
+}
+
+.topImg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.myBtn {
+    height: 3em;
+    width: 9em;
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 1em;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.midSection {
+    position: relative;
+}
+
+.midSection h1,
+.midSection .underH1,
+.midSection .watch,
+.midSection h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.midSection h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.midSection .underH1 {
+    color: white;
+    padding-top: 3em;
+    text-align: center;
+}
+
+.midSection .watch {
+    color: white;
+    padding-top: 3em;
+}
+
+.midSection h2 {
+    color: white;
+    padding-top: 1em;
+    font-size: 7em;
+    opacity: 50%;
+}
+
+.about {
+    margin-top: 10em;
+}
+
+.aboutMusic img {
+    height: 30em;
+    width: 30em;
+    border-radius: 4%;
+    margin-left: 10em;
+}
+
+.about h1 {
+    color: black;
+    font-size: 3em;
+    position: absolute;
+    right: 11.2em;
+    top: 21em;
+}
+
+.about .musicParagraph {
+    color: black;
+    font-size: 1em;
+    position: absolute;
+    left: 45em;
+    top: 70em;
+    width: 30em;
+}
+
+.about .learnMore {
+    height: 3em;
+    width: 10em;
+    border-radius: 0.7em;
+    border: none;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 31em;
+    top: 96em;
+}
+
+.performers {
+    margin-top: 20em;
+}
+
+.performers h1 {
+    position: absolute;
+    top: 36em;
+    left: 2em;
+}
+
+.performers .performersParagraph {
+    width: 20em;
+    position: absolute;
+    left: 6em;
+    top: 113em;
+}
+
+.performerA {
+    height: 15em;
+    width: 23em;
+    border-radius: 1em;
+    position: absolute;
+    top: 104em;
+    right: 26em;
+}
+
+.performerB {
+    height: 19em;
+    width: 15em;
+    border-radius: 1em;
+    position: absolute;
+    top: 100em;
+    right: 10em;
+}
+
+.performerC {
+    height: 19em;
+    width: 15em;
+    border-radius: 1em;
+    position: absolute;
+    top: 120em;
+    right: 34em;
+}
+
+.performerD {
+    height: 15em;
+    width: 23em;
+    border-radius: 1em;
+    position: absolute;
+    top: 120em;
+    right: 10em;
+}
+
+.viewDetails {
+    height: 3em;
+    width: 10em;
+    border-radius: 0.7em;
+    border: none;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 7em;
+    top: 155em;
+}
+
+.tickets {
+    margin-top: 10em;
+    overflow: hidden;
+}
+
+.tickets h1 {
+    position: relative;
+    color: black;
+    font-size: 2em;
+    left: 16em;
+    top: 24em;
+    display: flex;
+    text-align: center;
+}
+
+.tickets h2 {
+    position: relative;
+    padding-top: 30em;
+    padding-left: 23em;
+    font-size: 2em;
+    color: white;
+}
+
+.tickets .pricing1 {
+    position: absolute;
+    top: 160em;
+    left: 24em;
+    border-radius: 1em;
+    box-shadow: 0.2em 1em 1em; 
+}
+
+.tickets .pricing2 {
+    position: absolute;
+    top: 160em;
+    left: 40em;
+    border-radius: 1em;
+    box-shadow: 0.2em 1em 1em; 
+}
+
+.tickets .pricing3 {
+    position: absolute;
+    top: 160em;
+    left: 56em;
+    border-radius: 1em;
+    box-shadow: 0.2em 1em 1em; 
+}
+
+
+
+
+
+.feeling1 {
+    background-color: grey;
+    height: 42em;
+    width: 73em;
+}
+
+.feeling2 {
+    background-color: grey;
+    height: 42em;
+    width: 73em;
+}
+
+.feeling3 {
+    background-color: grey;
+    height: 42em;
+    width: 73em;
+}
+
+.feeling4 {
+    background-color: grey;
+    height: 42em;
+    width: 73em;
+}
+
+.feeling5 {
+    background-color: grey;
+    height: 42em;
+    width: 73em;
+}
+
+.slider {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 30em;
+}
+
+.slider__slide {
+    display: none;
+    height: 40rem;
+    width: 80rem;
+}
+
+.slider__slide--visible {
+    display: block;
+}
+
+.slider__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__prev,
+.slider__next {
+    position: absolute;
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    transform: translate(-50%, -50%);
+}
+
+.slider__prev {
+    left: -3%;
+}
+
+.slider__next {
+    right: 3%;
+}
+
+footer {
+    margin-top: 10em;
+}
+
+.contactUs {
+    width: 45%;
+}
+
+footer h1 {
+    position: absolute;
+    right: 25em;
+    top: 169em;
+}
+
+.name {
+    position: absolute;
+    right: 46em;
+    top: 310em;
+    border: none;
+    border-bottom: 1px solid grey;
+    opacity: 50%;
+}
+
+.labelN {
+    position: absolute;
+    right: 46.5em;
+    top: 257em;
+}
+
+.email {
+    position: absolute;
+    right: 46em;
+    top: 315em;
+    border: none;
+    border-bottom: 1px solid grey;
+    opacity: 50%;
+}
+
+.labelE {
+    position: absolute;
+    right: 46.5em;
+    top: 261em;
+}
+
+.message {
+    position: absolute;
+    right: 46em;
+    top: 320em;
+    border: none;
+    border-bottom: 1px solid grey;
+    opacity: 50%;
+    padding-bottom: 4em;
+}
+
+.labelM {
+    position: absolute;
+    right: 45.5em;
+    top: 265em;
+}
+
+.footerSubmit {
+    position: absolute;
+    right: 28.5em;
+    top: 327em;
+    width: 30em;
+    height: 3em;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.bottomFooter img {
+    width: 100%;
+}
